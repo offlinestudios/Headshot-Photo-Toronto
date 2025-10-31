@@ -533,6 +533,11 @@ body {
     border-radius: 0.75rem;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.map-container iframe {
+    display: block;
 }
 
 .location-info {
@@ -748,6 +753,11 @@ body {
         grid-template-columns: 1fr;
     }
     
+    .map-container {
+        height: 300px;
+        margin-bottom: 1.5rem;
+    }
+    
     .hero {
         padding: 6rem 0 3rem;
     }
@@ -786,5 +796,17 @@ body {
     
     .btn-lg {
         width: 100%;
+    }
+    
+    .section {
+        padding: 3rem 0;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .map-container {
+        height: 250px;
     }
 }

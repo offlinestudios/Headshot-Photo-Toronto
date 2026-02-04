@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Photographer",
+  "@id": "https://www.headshotphototoronto.com#localbusiness",
+  "name": "Headshot Photo Toronto",
+  "url": "https://www.headshotphototoronto.com",
+  "logo": "https://www.headshotphototoronto.com/images/headshot-logo.png",
+  "image": [
+    "https://www.headshotphototoronto.com/images/passport-sample-68.jpg",
+    "https://www.headshotphototoronto.com/images/passport-sample-81.jpg",
+    "https://www.headshotphototoronto.com/images/passport-sample-50.jpg"
+  ],
+  "telephone": "+1-647-499-6277",
+  "email": "info@headshotphototoronto.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "63 McCaul St",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "postalCode": "M5T 2W7",
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.654231,
+    "longitude": -79.391205
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "12:00",
+      "closes": "18:00"
+    }
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Toronto"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Headshot Photography Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Professional Headshots",
+          "description": "15-minute professional headshot session with same-day delivery available"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Corporate Headshots",
+          "description": "Professional corporate headshots for business profiles and company websites"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "LinkedIn Headshots",
+          "description": "Professional headshots optimized for LinkedIn and social media profiles"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Team Headshots",
+          "description": "Group headshot sessions for teams of 5 or more with consistent styling"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.google.com/maps/place/63+McCaul+St,+Toronto,+ON+M5T+2W7"
+  ]
+}
